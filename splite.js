@@ -1,2 +1,3 @@
 const friends = "amar sonar banla ami tomay valobasi";
-console.log(friends.split(" "));
+const friend = friends.split(" ");
+console.log(friend);

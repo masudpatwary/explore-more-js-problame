@@ -27,7 +27,7 @@ const names = [
 // console.log(result);
 
 function removeDuplicate(names) {
-  const uniqe = [];
+  const uniqe =  [];
   for (let i = 0; i < names.length; i++) {
     const Element = names[i];
     if (uniqe.includes(Element) === false) {
